@@ -13,7 +13,7 @@ console.log("分片序号: " + arguments[3])
 console.log("分片总数: " + arguments[4])
 
 // 对应星球的待我回答地址
-const ZSXQ_UNANSWER_URL = "";
+const ZSXQ_UNANSWER_URL = "https://api.zsxq.com/v2/groups/{对应的 groupsID}/topics?scope=unanswered_questions&count=20";
 // 提问回答接口地址前缀
 const ZSXQ_ANSWER_URL = "https://api.zsxq.com/v2/topics/";
 // OpenAi 接口地址
